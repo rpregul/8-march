@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Fredoka", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: #FDF3F1; /* Soft pastel pink/peach */
+  color: #5C4A44; /* Dark warm brown */
+  font-family: "Fredoka", sans-serif;
+}
+
+/* Custom styles for the hand-drawn feel */
+.card-shadow {
+  box-shadow: 4px 4px 0px 0px rgba(92, 74, 68, 0.15);
+}
+
+.btn-shadow {
+  box-shadow: 2px 2px 0px 0px rgba(92, 74, 68, 0.2);
+  transition: all 0.1s ease-in-out;
+}
+.btn-shadow:active {
+  box-shadow: 0px 0px 0px 0px rgba(92, 74, 68, 0.2);
+  transform: translate(2px, 2px);
+}
